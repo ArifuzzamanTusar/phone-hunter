@@ -1,0 +1,71 @@
+.spinner-border {
+  height: 1rem;
+  width: 1rem;
+}
+#btnLoading, #modalSpinner , #searchSpinner, #noResultFound, #successMessage , #emptyInput{
+  display: none;
+}
+.navbar-brand img {
+  width: 120px;
+}
+
+
+figure .phone_images {
+  width: 80%;
+}
+.card {
+  align-items: center;
+  text-align: center;
+  padding: 20px 0px;
+}
+.card .phone-image {
+  width: 60%;
+}
+
+table {
+  width: 100%;
+  /* table-layout:fixed;  */
+}
+table td {
+  word-wrap: break-word;
+}
+
+.spinner {
+  min-height: 80vh;
+}
+
+
+/* Default styles */
+/* write code here */
+
+/* Large display 1200px and above */
+@media screen and (min-width: 1200px) {
+  /* write code here */
+}
+
+/* Portrait tablets 768px and above */
+@media screen and (min-width: 768px) and (max-width: 979px) {
+  /* write code here */
+}
+
+/* Phones to tablets 767px and below */
+@media screen and (max-width: 767px) {
+  /* write code here */
+  table {
+    table-layout: fixed;
+  }
+  table tr td:nth-child(1) {
+    width: 100px;
+  }
+  .text-md-center{
+      text-align: center !important;
+  }
+  .search-bar{
+      width: 50%;
+  }
+}
+
+/* Phones 480px and below */
+@media screen and (max-width: 480px) {
+  /* write code here */
+}
